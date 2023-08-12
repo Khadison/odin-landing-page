@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.header-container {
+    background-color: tan;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 25px;
+    flex-shrink: 0;
+}
+
+.left-side-content {
+    font-size: 24px;
+}
+
+img {
+    display: flex;
+    width: 50%;
+    padding: 25px;
+}
+
+/* Problem with using width 50% in .left-side and img  because when it shrinks its always asking for 50% of the window which is why the image shrinks like that
+    Give fixed heights*/

@@ -2,4 +2,4 @@
 
 ## Despcription
 
-Creating a web page using the flexbox CSS layout
+Created a web page using the flexbox CSS layout. 
