@@ -9,14 +9,12 @@ h2 {
 
 .header-container {
     background-color: tan;
-    padding: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 12px;
-    
+    padding: 4px 12px;
 }
 
 ul {
@@ -33,14 +31,25 @@ a {
 .about-container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-side-title {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .left-side {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    padding: 25px;
-    flex-shrink: 0;
+    width: 315px;
+    height: 550px;
+    background-color: white;
+    padding: 10px;
 }
 
 .left-side-content {
@@ -48,10 +57,10 @@ a {
 }
 
 img {
-    display: flex;
-    width: 50%;
-    padding: 25px;
+    width: 65%;
+    padding: 10px;
 }
+
 
 /* Problem with using width 50% in .left-side and img  because when it shrinks its always asking for 50% of the window which is why the image shrinks like that
     Give fixed heights*/
