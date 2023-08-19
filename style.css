@@ -7,8 +7,8 @@ h2 {
     font-size: 32px;
 }
 
-.header-container {
-    background-color: tan;
+.header-background {
+    background-color: #1f2937;
 }
 
 .header {
@@ -28,7 +28,7 @@ a {
     text-decoration: none;
 }
 
-.about-container {
+.top-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -48,7 +48,7 @@ a {
     flex-direction: column;
     width: 315px;
     height: 550px;
-    background-color: white;
+    /* background-color: white; */
     padding: 10px;
 }
 
@@ -56,11 +56,40 @@ a {
     font-size: 24px;
 }
 
-img {
+.header-image {
     width: 65%;
     padding: 10px;
 }
 
+.facts-title {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+}
 
-/* Problem with using width 50% in .left-side and img  because when it shrinks its always asking for 50% of the window which is why the image shrinks like that
-    Give fixed heights*/
+.facts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.facts-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    margin: 14px;
+    border: 1px solid black;
+}
+
+#wanted-poster{
+    width: 50%;
+    margin: 5px;
+    border: 5px solid black;
+}
+
+/* What I want to add
+
+    Border to wanted posters so (add class) onto img src to seprate header image from facts images?
+    Figure out how a flex box underneath each image (add text behing img src in*/
