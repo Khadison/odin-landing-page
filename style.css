@@ -89,7 +89,47 @@ a {
     border: 5px solid black;
 }
 
-/* What I want to add
+.middle-background {
+    background-color: #e5e7eb;
+}
 
-    Border to wanted posters so (add class) onto img src to seprate header image from facts images?
-    Figure out how a flex box underneath each image (add text behing img src in*/
+.middle-content {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.bottom-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 65%;
+    height: 30%;
+}
+
+.button-content {
+    display: flex;
+    gap: 15px;
+}
+
+/* Things to do
+
+    Add background for white areas?
+    Fix font sizes
+    Add footer
+    Add quote for middle section 
+    
+*/
