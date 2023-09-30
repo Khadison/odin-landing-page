@@ -17,6 +17,11 @@ h2 {
     padding: 4px 12px;
 }
 
+.website-name {
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex: 1; */
+}
 ul {
     list-style: none;
     display: flex;
@@ -61,6 +66,12 @@ a {
     padding: 10px;
 }
 
+.facts-background {
+    background-image: url(assets/Onepiece_map.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .facts-title {
     display: flex;
     justify-content: center;
@@ -78,9 +89,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgray;
-    margin: 14px;
-    border: 1px solid black;
+    margin: 10px;
 }
 
 #wanted-poster{
@@ -91,21 +100,34 @@ a {
 
 .middle-background {
     background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    height: 350px;
 }
 
 .middle-content {
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: end;
+    padding: 28px;
+    gap: 10px;
+}
+
+.quote {
+   font-size: 3em;
+   display: flex;
+}
+
+.quote-speaker {
+   font-size: 32px;
+   font-weight: bold;
 }
 
 .bottom-background {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 350px;
 }
 
 .bottom-content {
@@ -116,7 +138,7 @@ a {
     align-items: center;
     background-color: aquamarine;
     border-radius: 10px;
-    width: 65%;
+    width: 75%;
     height: 30%;
 }
 
@@ -125,6 +147,19 @@ a {
     gap: 15px;
 }
 
+.footer-background {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
 /* Things to do
 
     Add background for white areas?
