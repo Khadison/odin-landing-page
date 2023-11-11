@@ -9,24 +9,29 @@ h2 {
 
 .header-background {
     background-color: #1f2937;
+    
 }
 
 .header {
     display: flex;
+    padding: 4px 0px 0px 25px;
+    position: fixed;
     justify-content: space-between;
-    padding: 4px 12px;
+    width: 100%;
+    background-color: orange;
 }
 
 .website-name {
-    display: flex;
-    flex-wrap: nowrap;
-    /* flex: 1; */
+    font-size: 32px;
+    /* white-space: nowrap; */
 }
+
 ul {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
+    padding: 0px 45px
 }
 
 a {
@@ -41,29 +46,30 @@ a {
     padding: 10px;
 }
 
+.left-side {
+    width: 315px;
+    height: 550px;
+    border: 5px black solid;
+    margin-top: 75px;
+    /* could add this into a media query if resolution gets smaller margin-bottom: -20px; */
+}
+
 .left-side-title {
     font-size: 32px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-}
-
-.left-side {
-    display: flex;
-    flex-direction: column;
-    width: 315px;
-    height: 550px;
-    /* background-color: white; */
-    padding: 10px;
+    text-align: center;
 }
 
 .left-side-content {
-    font-size: 24px;
+    font-size: 25px;
 }
+
+/*could make both .left-side-title and .left-side-content into flex boxes*/
 
 .header-image {
     width: 65%;
-    padding: 10px;
+    margin-top: 45px;
+    border: 5px red solid;
 }
 
 .facts-background {
@@ -99,27 +105,26 @@ a {
 }
 
 .middle-background {
-    background-color: #e5e7eb;
+    background-color: #1f2937;
     display: flex;
     align-items: center;
-    height: 350px;
+    height: 15%;
 }
 
 .middle-content {
-    /* display: flex;
-    flex-direction: column; */
     align-items: end;
     padding: 28px;
     gap: 10px;
 }
 
 .quote {
-   font-size: 3em;
-   display: flex;
+   font-size: 3.5vw;
+   word-wrap: break-word;
+
 }
 
 .quote-speaker {
-   font-size: 32px;
+   font-size: 3.5vw;
    font-weight: bold;
 }
 
@@ -128,6 +133,7 @@ a {
     justify-content: center;
     align-items: center;
     height: 350px;
+    background-color: #e5e7eb;
 }
 
 .bottom-content {
@@ -136,7 +142,7 @@ a {
     justify-content: center;
     /* justify-content: space-evenly; */
     align-items: center;
-    background-color: aquamarine;
+    background-color: orange;
     border-radius: 10px;
     width: 75%;
     height: 30%;
@@ -160,11 +166,11 @@ a {
     align-items: center;
     font-size: 20px;
 }
+
+
 /* Things to do
 
-    Add background for white areas?
     Fix font sizes
     Add footer
-    Add quote for middle section 
     
 */
