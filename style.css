@@ -104,6 +104,10 @@ a {
     border: 5px solid black;
 }
 
+.name{
+    font-size: 28px;
+}
+
 .middle-background {
     background-color: #1f2937;
     display: flex;
@@ -168,9 +172,11 @@ a {
 }
 
 
-/* Things to do
+/* Things/Ideas to do
 
-    Fix font sizes
-    Add footer
-    
+    Find ways to add depth (text shadow or box shadow)
+    Light/Dark mode
+    Edit header li's
+    add logo
+
 */
